@@ -40,6 +40,7 @@ const Country = ({ country , handleVisitedCountries}) => {
       <h4>REGION:{country.region.region}</h4>
       <h4>POPULATION:{country.population.population}</h4>
       <button onClick={handleVisited} >{visited ? 'Visited':'Not visited'}</button>
+      <button>Add Visited Flag</button>
     </div>
   );
 };
